@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/neon-cat.svg" alt="Неоновый кот летит по звёздному небу. Artur Yungblyud — Python Backend Developer" width="100%">
+  <img src="assets/neon-car.svg" alt="Пиксельная ретро-футуристичная машина летит по космосу с радужным шлейфом. Artur Yungblyud — Python Backend Developer" width="100%">
 </p>
 
 ### Обо мне
