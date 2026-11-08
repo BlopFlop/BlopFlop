@@ -22,9 +22,3 @@ Python-бэкенд разработчик. Пишу асинхронные се
 <a href="https://leetcode.com/u/BlopFlop/">
   <img src="assets/leetcode.svg" alt="LeetCode BlopFlop" width="100%">
 </a>
-
-### Проекты
-
-- [**payment_processing**](https://github.com/BlopFlop/payment_processing) — асинхронный процессинг платежей:
-  FastAPI, PostgreSQL, RabbitMQ (FastStream), transactional outbox, retry с экспоненциальной задержкой и DLQ,
-  webhook-уведомления, e2e-тесты на testcontainers, CI/CD с деплоем на сервер и HTTPS.
