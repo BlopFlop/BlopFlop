@@ -4,8 +4,8 @@
 
 ### Обо мне
 
-Python-бэкенд разработчик. Пишу асинхронные сервисы на FastAPI, проектирую схемы в PostgreSQL
-и строю надёжную доставку событий через RabbitMQ: outbox, ретраи, DLQ, идемпотентность.
+Больше всего люблю задачи, где что-то тормозит или падает и
+никто толком не понимает почему: сажусь, копаю и нахожу.
 
 <p>
   <img src="https://img.shields.io/badge/Python-0a0a1f?style=for-the-badge&logo=python&logoColor=00e5ff" alt="Python">
