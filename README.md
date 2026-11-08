@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Python-0a0a1f?style=for-the-badge&logo=python&logoColor=00e5ff" alt="Python">
   <img src="https://img.shields.io/badge/FastAPI-0a0a1f?style=for-the-badge&logo=fastapi&logoColor=39ff14" alt="FastAPI">
   <img src="https://img.shields.io/badge/PostgreSQL-0a0a1f?style=for-the-badge&logo=postgresql&logoColor=00e5ff" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/RabbitMQ-0a0a1f?style=for-the-badge&logo=rabbitmq&logoColor=ff2bd6" alt="RabbitMQ">
+  <img src="https://img.shields.io/badge/Kafka-0a0a1f?style=for-the-badge&logo=rabbitmq&logoColor=ff2bd6" alt="RabbitMQ">
   <img src="https://img.shields.io/badge/SQLAlchemy-0a0a1f?style=for-the-badge&logo=sqlalchemy&logoColor=b14cff" alt="SQLAlchemy">
   <img src="https://img.shields.io/badge/Docker-0a0a1f?style=for-the-badge&logo=docker&logoColor=00e5ff" alt="Docker">
   <img src="https://img.shields.io/badge/GitHub_Actions-0a0a1f?style=for-the-badge&logo=githubactions&logoColor=ff2bd6" alt="GitHub Actions">
