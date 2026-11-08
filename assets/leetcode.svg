@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="LeetCode BlopFlop: решено 485 задач, из них 134 Medium">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0a1f"/><stop offset="1" stop-color="#1a0b2e"/></linearGradient>
+  <linearGradient id="ringgrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff2bd6"/><stop offset=".5" stop-color="#b14cff"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="3" result="b1"/><feGaussianBlur stdDeviation="8" result="b2"/>
+    <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="card"><rect width="1000" height="220" rx="18"/></clipPath>
+</defs>
+<style>
+text{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+.head{font-size:13px;font-weight:700;letter-spacing:3px;fill:#c9c9ff}
+.big{font-size:46px;font-weight:800;fill:#fff}
+.sub{font-size:13px;fill:#c9c9ff;letter-spacing:1px}
+.num{font-size:40px;font-weight:800}
+.lbl{font-size:14px;fill:#c9c9ff}
+.bdg{font-size:13px;font-weight:600;fill:#fff}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.ring{transform-origin:130px 115px;animation:spin 6s linear infinite}
+.tile,.badge{opacity:0;animation:rise .7s ease-out forwards}
+.bar{transform-box:fill-box;transform-origin:center;transform:scaleX(0);animation:grow .8s ease-out forwards}
+</style>
+<g clip-path="url(#card)">
+  <rect width="1000" height="220" fill="url(#bg)"/>
+  <text class="head" x="40" y="36">LEETCODE · BLOPFLOP</text>
+  <circle cx="130" cy="115" r="66" fill="none" stroke="#2a2346" stroke-width="10"/>
+  <g filter="url(#glow)">
+    <circle class="ring" cx="130" cy="115" r="66" fill="none" stroke="url(#ringgrad)" stroke-width="10" stroke-linecap="round" stroke-dasharray="300 115"/>
+  </g>
+  <text class="big" x="130" y="122" text-anchor="middle" style="stroke:#ff2bd6;stroke-width:.8">485</text>
+  <text class="sub" x="130" y="145" text-anchor="middle">задач решено</text>
+  <g filter="url(#glow)"><g class="tile" style="animation-delay:0.00s"><text class="num" x="290" y="118" text-anchor="middle" style="fill:#ffe600">134</text><text class="lbl" x="290" y="146" text-anchor="middle">задач Medium</text><rect class="bar" x="250" y="160" width="80" height="3" rx="1.5" fill="#ffe600" style="animation-delay:0.30s"/></g><g class="tile" style="animation-delay:0.15s"><text class="num" x="440" y="118" text-anchor="middle" style="fill:#00e5ff">423</text><text class="lbl" x="440" y="146" text-anchor="middle">на Python</text><rect class="bar" x="400" y="160" width="80" height="3" rx="1.5" fill="#00e5ff" style="animation-delay:0.45s"/></g><g class="tile" style="animation-delay:0.30s"><text class="num" x="590" y="118" text-anchor="middle" style="fill:#39ff14">113</text><text class="lbl" x="590" y="146" text-anchor="middle">SQL и Pandas</text><rect class="bar" x="550" y="160" width="80" height="3" rx="1.5" fill="#39ff14" style="animation-delay:0.60s"/></g></g>
+  <line x1="700" y1="50" x2="700" y2="180" stroke="#2a2346" stroke-width="1.5"/>
+  <g filter="url(#glow)"><g class="badge" style="animation-delay:0.50s"><rect x="730" y="58" width="230" height="30" rx="15" fill="none" stroke="#ff2bd6" stroke-width="1.6"/><text class="bdg" x="845" y="78" text-anchor="middle">50 Days Badge 2025</text></g><g class="badge" style="animation-delay:0.70s"><rect x="730" y="100" width="230" height="30" rx="15" fill="none" stroke="#b14cff" stroke-width="1.6"/><text class="bdg" x="845" y="120" text-anchor="middle">Top SQL 50</text></g><g class="badge" style="animation-delay:0.90s"><rect x="730" y="142" width="230" height="30" rx="15" fill="none" stroke="#00e5ff" stroke-width="1.6"/><text class="bdg" x="845" y="162" text-anchor="middle">Introduction to Pandas</text></g></g>
+</g>
+</svg>
